@@ -1,0 +1,98 @@
+
+header {
+	background-color: #ffad16;
+}
+body {
+	background-color: darkgrey;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: grey;
+    }
+
+
+#header {
+	width: 360px;
+	height: 180px;
+	padding-left: 540px;
+}
+
+li {
+	display: inline-block;
+}
+
+
+li a {
+	color: white;
+	text-decoration: none;
+	padding: 0 16px;
+}
+
+ul {
+	margin: 0 0 0 0;
+    background-color:	#000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Main {
+	display: flex;
+	flex-wrap:wrap;
+	width: 800px;
+	margin: auto;
+}
+
+.child1 {
+width: 50%;
+margin: 0;
+padding-top: 20px;
+
+}
+
+.EthNews {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin: auto;
+	background-color: grey;
+	padding: 25px;
+	color: #ffad16;
+	font-family: sans-serif;
+}
+
+.indianews {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin: auto;
+	background-color: grey;
+	padding: 25px;
+	color: #ffad16;
+	font-family: sans-serif;
+}
+
+#ethcrsh {
+	width: 500px;
+	float: left;
+
+}
+
+h2 {
+	margin: 0;
+}
+
+.text {
+	margin: 0;
+	color: white;
+	text-decoration: none;
+}
+
+.img {
+	width: 271px;
+	height: 186px;
+}
+
+.rtimber {
+	width: 500px;
+}
